@@ -1,0 +1,88 @@
+body #showcase {
+  margin-top: 6rem;
+}
+.navbar-brand {
+  font-size: 1.3rem;
+  color: black !important ;
+  font-weight: bold;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Poppins;
+}
+p {
+  font-family: Roboto;
+}
+
+#showcase h1 {
+  font-size: 3rem;
+  margin-bottom: 1.2rem;
+}
+
+#showcase img {
+  width: 90%;
+  margin-left: 4rem;
+}
+
+#showcase .showcase-right {
+  margin-top: 5rem;
+}
+
+#testimonial {
+  background: #f1f1f1;
+  padding: 3rem 0 2rem 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#testimonial p {
+  font-family: "Josefin Sans";
+  font-size: 2rem;
+  color: black;
+}
+
+#testimonial p.customer {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+#info1 .info-right {
+  margin-top: 5.5rem;
+}
+
+#info2 {
+  margin: 1.2rem 0 4rem 0;
+}
+
+#contact {
+  background: url("../img/image3.png");
+  padding: 3rem;
+  color: white;
+  border-top: #333 7px solid;
+  border-bottom: #333 7px solid;
+}
+
+footer {
+  padding: 2rem;
+}
+/* 
+html {
+  scroll-behavior: smooth;
+} */
+
+@media (max-width: 1210px) {
+  #showcase img {
+    width: 70%;
+    margin-top: 5rem;
+  }
+  #info1 .info-left {
+    margin-right: 4rem;
+  }
+  .info-right {
+    margin-left: 4rem;
+  }
+}
